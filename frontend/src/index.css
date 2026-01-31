@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+
+@layer base {
+  body {
+    @apply bg-dark-bg text-white font-sans;
+  }
+}
+
+.glass-panel {
+  @apply bg-glass-white backdrop-blur-md border border-white/20 rounded-2xl;
+}
+
+.neon-btn {
+  @apply px-6 py-2 font-bold uppercase tracking-wider transition-all duration-300 transform hover:scale-105;
+}
