@@ -11,10 +11,16 @@ A full-stack **Product Inventory Management System** demonstrating clean REST AP
 <img src="Frontend_1.JPG" width="800" />
 
 ### Add Product Form
-<img src="Frontend_2.JPG" width="800" />
+<img src="Frontend_3.JPG" width="800" />
+
+### Update Product Form
+<img src="Frontend_4.JPG" width="800" />
 
 ### API Documentation (Swagger)
-<img src="Frontend_3.JPG" width="800" />
+<img src="Backend_1.JPG" width="800" />
+
+### API Documentation Json example (Swagger)
+<img src="Backend_2.JPG" width="800" />
 
 ---
 
@@ -36,16 +42,15 @@ A full-stack **Product Inventory Management System** demonstrating clean REST AP
 ---
 
 ## Run Locally
-
 ### Backend
 ```bash
 python -m venv myenv
 myenv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
-
-API: http://127.0.0.1:8000
-Docs: http://127.0.0.1:8000/docs
+```
+**API:** http://127.0.0.1:8000
+**Docs:** http://127.0.0.1:8000/docs
 
 ---
 
@@ -54,8 +59,8 @@ Docs: http://127.0.0.1:8000/docs
 cd frontend
 npm install
 npm run dev
-
-App: http://localhost:3001
+```
+**App:** http://localhost:3001
 
 ---
 
